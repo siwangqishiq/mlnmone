@@ -1,0 +1,43 @@
+MLNM-ONE documentation
+
+Copyright 2013 Unincorporated Media
+
+Introduction
+
+	MLNM-ONE is an open source 3D video game engine. It uses Python for scripting. The sceans are voxelized and rendered
+using voxel cone tracing.
+
+Features of the engine:
+
+	1. Advanced graphical capabilities:
+
+		A. Voxel Cone Tracing
+		B. Parralax Mapping
+		C. Volumetric Particles
+		D. X3D
+		E. Translucency
+		F. Reflection and Refraction
+
+	2. Realistic Physics:
+
+		A. Voxel Based Collision
+		B. Cloth Simulation
+		C. Fur Simulation
+		D. Fluid Simulation
+
+	3. Python Scripting
+
+	4. Large Environments
+
+
+Part One: Graphics Engine
+
+	MLNM-ONE uses a system known as GigaVoxels. In fact, much of the engine is based around it. GigaVoxels is very
+efficient, it can be used to store voxels (like the volumetric particles we will discuss later) and meshes voxelized on the
+fly. GigaVoxels' partner is Voxel Cone Tracing. Voxel Cone Tracing (or VCT for short) is a revelutionary new rendering method
+(as of 2013) that allows for global illumination, color bleeding, ambient occlusion, dynamic lighting, and reflections all
+in real time.
+	Some changes will have to be made to the rendering engine as implemented by the inventors. These changes are small
+but they will greatly increase the power of the rendering engine. For one, we will have to add paralax mapping; it will
+be made to affect collision rather than just rendering. Also, we need translucency. Additionaly we need NURBS, refraction
+and a
