@@ -57,3 +57,8 @@ software renderer.
          +-----------+         +----+----+
                                |  Client |
                                +---------+
+
+	The software renderer uses distributed computing across a network of computers in a multiplayer game. When a client
+connects to a server it sends out the its screen resolution and keymap. Keymaps are not implimented in the engine but scripted
+by the game developer so, sending out the keymap would also need to be scripted. As a player provides input, such as keypress,
+mouse movement and voice, it is sent to the server for processing. The server sends back screen out to the appropriat client.
