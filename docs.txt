@@ -34,7 +34,7 @@ Part One: Graphics Engine
 
 	MLNM-ONE uses a system known as GigaVoxels. In fact, much of the engine is based around it. GigaVoxels is very
 efficient, it can be used to store voxels (like the volumetric particles we will discuss later) and meshes voxelized on the
-fly. GigaVoxels' partner is Voxel Cone Tracing. Voxel Cone Tracing (or VCT for short) is a revelutionary new rendering method
+fly. GigaVoxels' partner is Voxel Cone Tracing. Voxel Cone Tracing (or VCT for short) is a revolutionary new rendering method
 (as of 2013) that allows for global illumination, color bleeding, ambient occlusion, dynamic lighting, and reflections all
 in real time.
 	Some changes will have to be made to the rendering engine as implemented by the inventors. These changes are small
@@ -42,7 +42,7 @@ but they will greatly increase the power of the rendering engine. For one, we wi
 be made to affect collision rather than just rendering. Also, we need translucency. Additionaly we need NURBS, refraction
 and arbitrary light bounces. This can be used to make the engine run better on slower computers and look better on faster
 computers.
-	In the thesis VCT uses CUDA and OpenGL 4. This would limits the engine to only recent NVIDIA cards. I believe that
+	In the thesis VCT uses CUDA and OpenGL 4. This limits the engine to only recent NVIDIA cards. I believe that
 GLSL could be used to impliment the rendering engine. Also, we could have multiple versions of the renderer specific to the
 users setup. There will also be two extra renderers for the editor, one with marching cubes generated wireframe, and another
 with view directed lighting as seen in the GigaVoxels tech demos. Users on servers or very powerful computers can use the
