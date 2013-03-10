@@ -1,25 +1,23 @@
-///////////////////////////////
-//MRNDA-ONE video game engine//
-///////////////////////////////
-//This file is licensed under//
-//the GNU GPL. See LICENSE   //
-//for more information.      //
-///////////////////////////////
+//MLNM-ONE video game engine Copyright 2013 Unincorporated Media
 
-//******************************************************************
-//*Purpose of this file:                                           *
-//*                                                                *
-//* To provide variables for keyboard input in the MRNDA-ONE video *
-//* game engine.                                                   *
-//*                                                                *
-//*Edits to this file:                                             *
-//*                                                                *
-//* Created by Sam Jackson on 9/23/2012                            *
-//*                                                                *
-//* Sam Jackson added SDLcodes and keydown on 10/8/2012            *
-//******************************************************************
+//    This file is part of MLNM-ONE.
 
-#include //NecesaryMRNDA-ONEHeaders
+//  MLNM-ONE is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+
+//  MLNM-ONE is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+
+//  You should have received a copy of the GNU General Public License
+//  along with MLNM-ONE.  If not, see <http://www.gnu.org/licenses/>.
+
+//Purpose of this file: provide variables for keyboard input in the MLNM-ONE video game engine.
+
+#include //NecesaryMLNM-ONEHeaders
 
 //Follows are the variables representing keyboard keys
 

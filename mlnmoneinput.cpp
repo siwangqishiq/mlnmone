@@ -1,27 +1,24 @@
-///////////////////////////////////
-//The MRNDA-ONE video game engine//
-///////////////////////////////////
-//This file is licensed under the//
-//GNU GPL. See LICENSE for more  //
-//information.                   //
-///////////////////////////////////
+//MLNM-ONE video game engine Copyright 2013 Unincorporated Media
 
-//**************************************************************************************
-//*The purpose of this file is to provide functions for handling input and to allow the*
-//*use of them in scripting.                                                           *
-//*                                                                                    *
-//*                                                                                    *
-//*Edits to this file:                                                                 *
-//*                                                                                    *
-//*Created by Sam Jackson on the 16th of September in 2012                             *
-//*                                                                                    *
-//*Edited by Sam Jackson on 9/24/2012                                                  *
-//*                                                                                    *
-//*keydown refrences added by Sam Jackson on 10/8/2012                                 *
-//**************************************************************************************/
+//    This file is part of MLNM-ONE.
 
-#include //AnyMRNDA-ONEHeaderFiles.h
-#include "mrndaonekeys.h"
+//  MLNM-ONE is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+
+//  MLNM-ONE is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+
+//  You should have received a copy of the GNU General Public License
+//  along with MLNM-ONE.  If not, see <http://www.gnu.org/licenses/>.
+
+//Purpose of this file: provide functions for handling input and to allow the use of them in scripting.        
+
+#include //AnyMLNM-ONEHeaderFiles.h
+#include "mlnmonekeys.h"
 
 bool keypress(char, /*Whatever is needed to have an indefinate number of arguments*/)
 
