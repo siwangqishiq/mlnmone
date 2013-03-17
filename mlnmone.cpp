@@ -33,6 +33,8 @@ int main(int argc, char *argv[])
 
  PHYSFS_AddToSearchPath(argv[1], 1); //Load the datafile
 
+ PyRun_SimpleString("import mlnmone"); //Load MLNM-ONE API so user doesn't need to
+
  runscript("main.py");
 
  return 0;
