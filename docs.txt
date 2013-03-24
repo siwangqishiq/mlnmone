@@ -62,3 +62,15 @@ software renderer.
 connects to a server it sends out the its screen resolution and keymap. Keymaps are not implimented in the engine but scripted
 by the game developer so, sending out the keymap would also need to be scripted. As a player provides input, such as keypress,
 mouse movement and voice, it is sent to the server for processing. The server sends back screen out to the appropriat client.
+
+	Non-textured materials have nine properties. These properties are: Red, Green, Blue, Transparency, Reflectivity,
+IOR, emmisivness, translucency, and roughness. Internal representation of materials is similar to UNIX file permissions.
+The values of all attributes are in one integer. Here is a graph of it with only RGB with 8 bits:
+
+                 000000000000111111111111
+                 |      ||      ||      |  This would mean that the value of this material would be 4095
+                 +------++------++------+
+                  Blue    Green    Red
+
+In acctuality the materials will have material_bit_depth*9 bits. By default each attribute will be 8, this will mean that 2^72
+unique materials.
